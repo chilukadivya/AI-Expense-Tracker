@@ -26,6 +26,21 @@ This is a simple and user-friendly expense tracker built using Python and Stream
 
 ---
 
+## AI/ML Integration (Internship Requirement Justification)
+In this project, I used EasyOCR, which is a deep learning-based tool, to read and extract text from receipt images.
+This is an example of how AI is used in real life, especially in the area of computer vision.
+The app takes an image, finds the text using AI, and turns it into useful data for tracking expenses.
+
+This clearly shows the use of Artificial Intelligence, which is one of the main requirements of the internship.
+
+Even though the app runs locally now, it is designed in a way that it can be deployed on Microsoft Azure in the future, using services like:
+
+🔹Azure Cognitive Services (for OCR)
+
+🔹Azure Blob Storage (to store receipt images)
+
+🔹Azure App Services (to make the app live)
+
 ## How to Run the Project
 
 1. Clone the repository: git clone https://github.com/chilukadivya/AI-Expense-Tracker.git cd AI-Expense-Tracker
