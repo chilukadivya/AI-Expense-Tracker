@@ -33,7 +33,7 @@ data = pd.read_csv(file_path) if os.path.exists(file_path) else pd.DataFrame(col
 data['Date'] = pd.to_datetime(data['Date'], errors='coerce')
 data['Month'] = data['Date'].dt.to_period('M').astype(str)
 data['Year'] = data['Date'].dt.year.astype(str)
-data['Category'] = data['Category'].str.strip()  # 👈 This fixes label formatting
+data['Category'] = data['Category'].str.strip()  #  This fixes label formatting
 
 
 
